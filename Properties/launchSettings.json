@@ -14,7 +14,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    },
+    }, 
     "BooksCatalogue": {
       "commandName": "Project",
       "launchBrowser": true,
