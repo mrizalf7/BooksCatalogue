@@ -10,8 +10,8 @@ namespace BooksCatalogue.Controllers
 {
     public class ReviewController : Controller
     {
-        private string apiEndpoint = "https://localhost:8000/api/";
-        public string baseurl = "https://localhost:5001/Books/Details/";
+        private string apiEndpoint = "https://rizalapi.azurewebsites.net/api/";
+        public string baseurl = "https://rizalweb.azurewebsites.net/Books/Details/";
         private readonly HttpClient _client;
         HttpClientHandler clientHandler = new HttpClientHandler();
 
